@@ -1,9 +1,9 @@
 ﻿using System;
 using Autofac;
-using Autofac.Framework.DependencyInjection;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
-using Microsoft.Framework.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace AutofacWebApiSample
 {

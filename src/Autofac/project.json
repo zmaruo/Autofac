@@ -1,5 +1,5 @@
 {
-    "version": "4.0.0-beta8-*",
+    "version": "4.0.0-rc1-*",
     "authors": ["Autofac Contributors"],
     "description": "Core assembly for the Autofac Inversion of Control container",
     "summary": "Autofac is an IoC container for Microsoft .NET. It manages the dependencies between classes so that applications stay easy to change as they grow in size and complexity.",
@@ -43,6 +43,27 @@
         },
         "net45":{},
         "netcore45":{
+            "frameworkAssemblies": {
+                "System.Collections": "",
+                "System.ComponentModel": "",
+                "System.Core": "",
+                "System.Diagnostics.Contracts": "",
+                "System.Diagnostics.Debug": "",
+                "System.Diagnostics.Tools": "",
+                "System.Globalization": "",
+                "System.Linq": "",
+                "System.Linq.Expressions": "",
+                "System.ObjectModel": "",
+                "System.Reflection": "",
+                "System.Reflection.Extensions": "",
+                "System.Reflection.Primitives": "",
+                "System.Resources.ResourceManager": "",
+                "System.Runtime": "",
+                "System.Threading": "",
+                "System.Threading.Tasks": ""
+            }
+        },
+        ".NETPortable,Version=v4.5,Profile=Profile259": {
             "frameworkAssemblies": {
                 "System.Collections": "",
                 "System.ComponentModel": "",
